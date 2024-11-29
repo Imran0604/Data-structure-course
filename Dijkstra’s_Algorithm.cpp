@@ -1,4 +1,4 @@
-//Disjtra Algorithm
+//Dijkstra’s Algorithm
 
 #include<bits/stdc++.h>
 using namespace std;

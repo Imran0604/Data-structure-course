@@ -46,7 +46,9 @@ int main() {
         }
     }
 
-    fill(visited.begin(), visited.end(), 0);
+    for (int i = 0; i < visited.size(); i++) {
+          visited[i] = 0;
+    }
     vector<vector<int>> sccs;
 
     while (!order.empty()) {
